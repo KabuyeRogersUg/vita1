@@ -1,0 +1,8 @@
+
+a = [2, 3, 4]
+
+fn exe(obj) {
+	obj.push(7)
+}
+
+

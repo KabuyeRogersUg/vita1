@@ -1,0 +1,19 @@
+import time
+
+fn clock(name){
+	print(`{name}, the time is {time.ctime()}.`)
+}
+
+fn main {
+	name = readline("Enter name: ")
+
+	if len(name)
+		clock(name)
+	else
+		print("You never entered a name. Please retry.")
+		main()
+}
+
+## executing the function
+main()
+
